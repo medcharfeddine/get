@@ -1,0 +1,61 @@
+.App {
+  background-color: black;
+  text-align: center;
+  color: #f5c04e;
+  height: 100% 
+}
+
+.empty {
+  height: 100vh;
+  content: '';
+  background-color: black;
+  position: absolute;
+  width: 100vw;
+  z-index: -1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px 0;
+}
+
+nav>img {
+  height: 30px;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.ul>li>a {
+  text-decoration: none;
+  color: #E4C2C6;
+  /* text-transform: uppercase; */
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 35vh;
+}
+
+.form>input {
+  width: 80%;
+  height: 50px;
+  font-size: large;
+  border-radius: 5px;
+  padding: 0 12px;
+}
+
+.infos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
