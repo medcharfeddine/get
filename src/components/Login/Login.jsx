@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import client from '../../client'
 import Client from '../Client/Client'
 import Products from '../Products/Products'
@@ -6,13 +6,6 @@ import Products from '../Products/Products'
 const Login = () => {
     const id = client[0].id
     const [search, setSearch] = useState("")
-    const bd = client[0].birth_date
-    const date = new window.Date()
-    useEffect(() => {
-      if (bd === date) { alert("Happy Birthday!!")}
-    }, [date])
-    
-
     
   return (
     <div style={{display: "flex", flexDirection: "column" ,justifyContent: "space-evenly", alignItems: "center", paddingBottom:"50px"}}>
@@ -21,7 +14,7 @@ const Login = () => {
             <p>DRESS TO IMPRESS</p>
         </div>
         <form className='form'>
-            <input type="text" placeholder='Enter Your Carte Number' value={search} onChange={(e)=>setSearch(e.target.value)}  />
+            <input className='inp' type="text" placeholder='Enter Your Carte Number' value={search} onChange={(e)=>setSearch(e.target.value)}  />
         </form>
 
         {

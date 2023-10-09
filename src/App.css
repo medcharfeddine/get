@@ -45,7 +45,7 @@ nav>img {
   height: 35vh;
 }
 
-.form>input {
+.inp {
   width: 80%;
   height: 50px;
   font-size: large;
@@ -58,4 +58,50 @@ nav>img {
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+
+@media screen and (max-width: 420px) {
+  .products  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .copyright {
+    font-size: x-small;
+  }
+
+  .infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inp {
+    width: 80%;
+    font-size: small;
+  }
+.footer {
+  padding: 2px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
 }

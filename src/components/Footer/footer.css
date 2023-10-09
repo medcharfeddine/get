@@ -1,4 +1,11 @@
-img {
+.footer {
+  display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding: 15px 0;
+}
+
+.image {
     height: 30px;
   }
   
@@ -12,4 +19,14 @@ img {
     text-decoration: none;
     color: #E4C2C6;
     /* text-transform: uppercase; */
+  }
+
+
+  @media screen and (max-width: 420px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
   }
