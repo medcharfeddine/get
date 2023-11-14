@@ -8,7 +8,7 @@ const Products = ({ client }) => {
         <div className='products' style={{display:"flex"}}>
             {client[0].products.map((product, id) => (
                 <div key={id} className="card" style={{ display: "flex", justifyContent:"center", alignItems:"center", gap:"20px" }}>
-                    <a href={product.link}>
+                    <a href={product.link} target='_blank'>
                     <img src={product.image} alt="Avatar" style={{ width: '50%', display: 'flex', justifyContent: "center", alignItems: "center", borderRadius:"15px" }} />
                     <div className="container">
                         <h4><b> {product.name} </b></h4>
