@@ -22,7 +22,7 @@ const client = [
                 "name": "CHEMISE JEANS",
                 "image": "https://www.get.com.tn/images/produits/1698310903632.webp",
                 "price": "119.000TND",
-                "link": "https://www.get.com.tn/fr/produits/show/306/chemise-jeans"
+                "link": "https://www.get.com.tn/fr/produits/show/373/chemise-jeans"
             },
             {
                 "name": "Sweat À Capuche",
