@@ -8,22 +8,22 @@ const client = [
         "products": [
             {
                 "name": "BLOUSON SIMILI CUIR",
-                "image": "https://www.get.com.tn/images/produits/1696589033664.webp",
+                "image": "https://www.get.com.tn/images/produits/1697704922403.webp",
                 "price": "278.000TND",
             },
             {
                 "name": "PANTALON SKINNY",
-                "image": "https://www.get.com.tn/images/produits/1696593019410.webp",
+                "image": "https://www.get.com.tn/images/produits/1684487430347.webp",
                 "price": "119.000TND",
             },
             {
                 "name": "CHEMISE JEANS",
-                "image": "https://www.get.com.tn/images/produits/1696595059392.webp",
+                "image": "https://www.get.com.tn/images/produits/1698310903632.webp",
                 "price": "119.000TND",
             },
             {
                 "name": "Sweat À Capuche",
-                "image": "https://www.get.com.tn/images/produits/1696579780619.webp",
+                "image": "https://www.get.com.tn/images/produits/1697875646643.webp",
                 "price": "98.000TND",
             },
         ]
