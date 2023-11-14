@@ -32,7 +32,7 @@ const Client = ({ search, id, client }) => {
     return (
         <div>
             <h1 >Bienvenue <span> {client[0].name} </span> </h1>
-            <img style={{ width: "150px" }} src="https://assets.stickpng.com/images/585e4bcdcb11b227491c3396.png" alt="user" />
+            <img style={{ width: "150px" }} src="https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="user" />
             <p>Info</p>
             <div className="infos">
                 <h3> {client[0].tel} </h3>
